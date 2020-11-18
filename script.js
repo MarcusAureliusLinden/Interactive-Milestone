@@ -1,9 +1,18 @@
+    $("#button").on("click", function () {
+        $(".poem").first().addClass("hidden");
+        $(".poem").next().removeClass("hidden");
+        $("#button").text("Wander On");
+    });
 
 
-$("#button").on("click", function(){
-    $(".poem").first().addClass(hidden);
-    $("#button").text("Wander On")
-})
+
+
+
+
+
+
+
+
 
 
 
