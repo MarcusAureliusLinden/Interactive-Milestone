@@ -1,16 +1,21 @@
-let poem = document.getElementById("poem");
 
-function changePage() {
-    button.text("Wander on");
-    alert("There is no turning back")
+
+$("#button").on("click", function(){
+    $(".poem").first().addClass(hidden);
+    $("#button").text("Wander On")
 })
-};
+
+
+
+
+
+
+
+
+
+
 
 /*
-let poemPage = [
-    text,
-]
-
 
 
 function Millie(wonder, clarity, earnest) {

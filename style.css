@@ -25,15 +25,16 @@ body {
     border-color: snow;
     position: relative;
     font-family: 'Nanum Brush Script', cursive;
+    text-align: left;
 }
 
-#poem {
+#poem-1 {
     text-align: left;
     padding:10px;
     font-family: 'Nanum Brush Script', cursive;
 }
 
-button {
+#button {
     background-color: black;
     text-align: center;
     color: darkturquoise;
@@ -44,6 +45,10 @@ button {
     bottom: 10px;
     right: 10px;
     font-family: 'Aladin', cursive;
+}
+
+.hidden {
+    display: none;
 }
 
 /*-------Style Classes----*
