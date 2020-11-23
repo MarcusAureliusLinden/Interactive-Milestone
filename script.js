@@ -1,34 +1,12 @@
-    $("#button").on("click", function () {
-        $(".poem").first().addClass("hidden");
-        $(".poem").next().removeClass("hidden");
-        $("#button").text("Wander On");
-    });
+const button = document.getElementById("button");
 
+button.addEventListener("click", function() {
+    $("p").addClass("hidden");
+    $("#button").text("Wander On");
+    
+    let i = document.getElementsByTagName("p");
+})
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-function Millie(wonder, clarity, earnest) {
-    wonder = 0;
-    clarity = 0;
-    earnest = 0;
-}; */
+var millie = {
+    interaction: 0
+};
