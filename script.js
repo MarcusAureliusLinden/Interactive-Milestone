@@ -3,8 +3,8 @@ const button = document.getElementById("button");
 button.addEventListener("click", function() {
     $("p").addClass("hidden");
     $("#button").text("Wander On");
-    
-    let i = document.getElementsByTagName("p");
+    millie.interaction = millie.interaction+1;
+    $("#poem-2").removeClass("hidden");
 })
 
 var millie = {
